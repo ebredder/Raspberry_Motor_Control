@@ -1,6 +1,6 @@
 # Setting up the Server
 
-## Install lightpd Server package:
+## Install lighttpd Server package:
 
 `sudo apt-get install lighttpd`
 
