@@ -50,6 +50,8 @@ fastcgi.server = (
  )
 ```
 
+**CTRL+X** to Exit and use Y to save changes upon exiting.
+
 Restart the server:
 
 `sudo service lighttpd restart`
