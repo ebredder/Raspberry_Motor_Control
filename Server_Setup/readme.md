@@ -47,7 +47,7 @@ fastcgi.server = (
    ".py" => (
      "python-fcgi" => (
        "socket" => "/tmp/fastcgi.python.socket",
-       "bin-path" => "/var/www/html/LED_Test.py",
+       "bin-path" => "/var/www/html/Server_LED_Test.py",
        "check-local" => "disable",
        "max-procs" => 1)
     )
