@@ -46,5 +46,6 @@ Use an SSH software to communicate to the PI. Linux and Mac have this built in, 
 + Connection Type: SSH
 + Click Open to start you session
 + Enter the password to continue
++ If you need more help try [here](https://www.raspberrypi.org/documentation/remote-access/ssh/windows.md)
 
 This should get you started with the remote communication to the Raspberry Pi!
