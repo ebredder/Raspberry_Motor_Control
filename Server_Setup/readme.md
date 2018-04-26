@@ -8,25 +8,25 @@
 
 Set up a hompage by typing:
 
-`cd /var/www/`
+`cd /var/www/html`
 
 Then create the HTML homapage using:
 
 `sudo nano index.html`
 
-Make sure to save that file in the **/var/www** folder. Point your browser to your IP Address of the PI to see if the server is setup.
+Make sure to save that file in the **/var/www/html** folder. Point your browser to your IP Address of the PI to see if the server is setup.
 
 To make sure the server can run the python script use:
 
-`sudo chmod 755 /var/www/pythonfile.py`
+`sudo chmod 755 /var/www/html/pythonfile.py`
 
 ## Install the Python Web Server interpreter:
 
 `sudo apt-get -no-install-recommended install python-flup`
 
-Now you can save your python scripts to **/var/www** in order to run them remotely. You will also need to adjust your scripts to run from the server not from a local script. Check the example in the RPI_3 folder.
+Now you can save your python scripts to **/var/www/html** in order to run them remotely. You will also need to adjust your scripts to run from the server not from a local script. Check the example in the RPI_3 folder.
 
-To set up permission properly:
+To set up permissions properly:
 
 ```
 ls -l /usr/bin/python
