@@ -2,11 +2,15 @@
 
 ## Raspberry Pi 3
 Make sure to start with Raspbian-Lite downloaded from: [Raspbian Stretch Lite](https://www.raspberrypi.org/downloads/raspbian/)
+
 Boot into your terminal session:
+
 *U/N:* `pi`
+
 *P/W:* `raspberry`
 
 To allow for SSH and Remote GPIO Control we must run this command:
+
 `sudo raspi-config`
 
 **Option 2: Network Options**
@@ -24,7 +28,9 @@ To allow for SSH and Remote GPIO Control we must run this command:
 **Exit** (TAB will allow you to switch menus)
 
 Type:
+
 `hostname -I`
+
 Write down this IP address for SSH log in.
 
 ## Your computer...
