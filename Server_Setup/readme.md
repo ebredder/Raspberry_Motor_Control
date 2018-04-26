@@ -2,8 +2,9 @@
 
 ## Install lightpd Server package:
 
-`sudo apt-get install lighttpd
-sudo service lighttpd start`
+`sudo apt-get install lighttpd`
+
+`sudo service lighttpd start`
 
 Set up a hompage by typing:
 
@@ -23,11 +24,13 @@ Now you can save your python scripts to **/var/www** in order to run them remote
 
 To set up permission properly:
 
-`ls -l /usr/bin/python
+```
+ls -l /usr/bin/python
 sudo cp /usr/bin/python2.7 /usr/bin/pythonRoot
 sudo chmod u+s /usr/bin/pythonRoot
 ls -l /usr/bin/pythonRoot
-sudo nano /etc/lighttpd/lighttpd.conf`
+sudo nano /etc/lighttpd/lighttpd.conf
+```
 
 Add this line to **server.modules=()**:
 
@@ -35,7 +38,8 @@ Add this line to **server.modules=()**:
 
 Add this to the end of the file:
 
-`fastcgi.server = (
+```
+fastcgi.server = (
    ".py" => (
      "python-fcgi" => (
        "socket" => "/tmp/fastcgi.python.socket",
@@ -44,7 +48,7 @@ Add this to the end of the file:
        "max-procs" => 1)
     )
  )
-`
+```
 
 Restart the server:
 
