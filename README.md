@@ -5,9 +5,9 @@ Make sure to start with Raspbian-Lite downloaded from: [Raspbian Stretch Lite](h
 
 Boot into your terminal session:
 
-*U/N:* `pi`
+U/N: `pi`
 
-*P/W:* `raspberry`
+P/W: `raspberry`
 
 To allow for SSH and Remote GPIO Control we must run this command:
 
