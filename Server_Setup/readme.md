@@ -16,6 +16,10 @@ Then create the HTML homapage using:
 
 Make sure to save that file in the **/var/www** folder. Point your browser to your IP Address of the PI to see if the server is setup.
 
+To make sure the server can run the python script use:
+
+`sudo chmod 755 /var/www/pythonfile.py`
+
 ## Install the Python Web Server interpreter:
 
 `sudo apt-get -no-install-recommended install python-flup`
