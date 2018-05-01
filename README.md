@@ -49,3 +49,9 @@ Use an SSH software to communicate to the PI. Linux and Mac have this built in, 
 + If you need more help try [here](https://www.raspberrypi.org/documentation/remote-access/ssh/windows.md)
 
 This should get you started with the remote communication to the Raspberry Pi!
+
+**Resources:**
+
+[Controlling GPIO from Web - Dav Stott](http://davstott.me.uk/index.php/2013/03/17/raspberry-pi-controlling-gpio-from-the-web/)
+
+[Controlling Motors using Python - Jason Barnett](https://business.tutsplus.com/tutorials/controlling-dc-motors-using-python-with-a-raspberry-pi--cms-20051)
